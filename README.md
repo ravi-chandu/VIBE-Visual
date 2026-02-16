@@ -32,7 +32,7 @@ Add your screenshots here:
 
 ### Prerequisites
 
-- **Node.js** >= 16.0.0
+- **Node.js** >= 18.0.0 (LTS recommended)
 - **npm** >= 8.0.0
 - **Power BI Custom Visuals Tools** (pbiviz CLI)
 

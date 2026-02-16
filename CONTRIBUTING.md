@@ -61,7 +61,7 @@ We actively welcome your pull requests:
 
 ### Prerequisites
 
-- **Node.js** >= 16.0.0 and **npm** >= 8.0.0
+- **Node.js** >= 18.0.0 (LTS recommended) and **npm** >= 8.0.0
 - **Power BI Desktop** (latest version recommended)
 - **Power BI Custom Visuals Tools** (pbiviz CLI)
 
