@@ -1,0 +1,47 @@
+# Build outputs
+.tmp/
+dist/
+*.pbiviz
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Demo files (optional - uncomment if you don't want to track your demo .pbix files)
+# *.pbix
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Webpack stats
+webpack.statistics.*.html
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,92 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18.x'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+    
+    - name: Install Power BI Visuals Tools
+      run: npm install -g powerbi-visuals-tools
+    
+    - name: Build package
+      run: npm run package
+    
+    - name: Get version from tag
+      id: get_version
+      run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+    
+    - name: Extract changelog for this version
+      id: changelog
+      run: |
+        VERSION="${{ steps.get_version.outputs.VERSION }}"
+        CHANGELOG=$(sed -n "/## \[$VERSION\]/,/## \[/p" CHANGELOG.md | sed '$d')
+        echo "CHANGELOG<<EOF" >> $GITHUB_OUTPUT
+        echo "$CHANGELOG" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        name: Release v${{ steps.get_version.outputs.VERSION }}
+        body: |
+          ## 🎉 Vibe Visual v${{ steps.get_version.outputs.VERSION }}
+          
+          ${{ steps.changelog.outputs.CHANGELOG }}
+          
+          ---
+          
+          ### 📦 Installation
+          
+          1. Download the `.pbiviz` file below
+          2. Open Power BI Desktop
+          3. Go to **Insert** → **Get more visuals** → **Import from file**
+          4. Select the downloaded `.pbiviz` file
+          5. Accept the import prompt
+          
+          ### 📚 Documentation
+          
+          - [README](https://github.com/${{ github.repository }}/blob/main/README.md)
+          - [CHANGELOG](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md)
+          - [Contributing Guidelines](https://github.com/${{ github.repository }}/blob/main/CONTRIBUTING.md)
+          
+          ### 🔧 Requirements
+          
+          - Power BI Desktop (latest version recommended)
+          - Node.js >= 16.0.0 (for development)
+          
+          ---
+          
+          **Full Changelog**: https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md
+        files: dist/*.pbiviz
+        draft: false
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Release summary
+      run: |
+        echo "✅ Release v${{ steps.get_version.outputs.VERSION }} created successfully!"
+        echo "📦 Package file attached to release"
+        echo "🔗 Release URL: https://github.com/${{ github.repository }}/releases/tag/v${{ steps.get_version.outputs.VERSION }}"

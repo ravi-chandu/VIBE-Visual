@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "vibevisual",
+        "displayName": "Vibe Visual",
+        "guid": "vibevisualD09ADBDB8E2440B98C4785F92E2CEF60",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Modern open-source Power BI custom visual built with AI vibe coding.",
+        "supportUrl": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual",
+        "gitHubUrl": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual"
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Ravi Chandu",
+        "email": "YOUR_GITHUB_USERNAME@users.noreply.github.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

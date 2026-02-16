@@ -1,0 +1,52 @@
+{
+  "name": "powerbi-vibevisual",
+  "description": "Modern open-source Power BI custom visual for creating beautiful, interactive SVG bar charts with customizable colors, animations, and cross-filtering support.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ravi Chandu",
+    "email": "YOUR_GITHUB_USERNAME@users.noreply.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual.git"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual/issues"
+  },
+  "keywords": [
+    "powerbi",
+    "custom-visual",
+    "bar-chart",
+    "data-visualization",
+    "svg",
+    "typescript",
+    "d3",
+    "interactive",
+    "business-intelligence"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "@types/d3": "7.4.3",
+    "d3": "7.9.0",
+    "powerbi-visuals-api": "~5.3.0",
+    "powerbi-visuals-utils-formattingmodel": "6.0.4",
+    "powerbi-visuals-utils-formattingutils": "6.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-powerbi-visuals": "^1.0.0",
+    "typescript": "5.5.4"
+  }
+}
