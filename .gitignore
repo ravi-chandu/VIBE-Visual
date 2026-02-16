@@ -32,7 +32,7 @@ yarn-error.log*
 .env.*.local
 
 # Package manager
-package-lock.json
+# package-lock.json should be committed for reproducible builds
 yarn.lock
 
 # Webpack stats
