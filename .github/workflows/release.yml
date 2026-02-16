@@ -31,6 +31,11 @@ jobs:
     - name: Install Power BI Visuals Tools
       run: npm install -g powerbi-visuals-tools
     
+    - name: Create temporary certificate for build
+      run: |
+        # Create a temporary certificate for release builds
+        pbiviz --install-cert || echo "Certificate creation skipped"
+    
     - name: Build package
       run: npm run package
     
