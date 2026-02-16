@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "author": {
     "name": "Ravi Chandu",
-    "email": "YOUR_GITHUB_USERNAME@users.noreply.github.com"
+    "email": "ravi-chandu@users.noreply.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual.git"
+    "url": "https://github.com/ravi-chandu/VIBE-Visual.git"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual#readme",
+  "homepage": "https://github.com/ravi-chandu/VIBE-Visual#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual/issues"
+    "url": "https://github.com/ravi-chandu/VIBE-Visual/issues"
   },
   "keywords": [
     "powerbi",

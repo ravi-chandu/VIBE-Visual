@@ -109,7 +109,7 @@ If you find problems while testing:
 1. Document the exact steps to reproduce
 2. Note your Power BI Desktop version
 3. Capture screenshots or screen recordings
-4. [Open an issue](https://github.com/YOUR_GITHUB_USERNAME/vibevisual/issues/new?template=bug_report.md)
+4. [Open an issue](https://github.com/ravi-chandu/VIBE-Visual/issues/new?template=bug_report.md)
 
 ## 🤝 Contributing Examples
 
@@ -122,4 +122,4 @@ Have a great use case or example? We'd love to include it!
 
 ---
 
-**Need help?** Check the [main README](../README.md) or [open an issue](https://github.com/YOUR_GITHUB_USERNAME/vibevisual/issues).
+**Need help?** Check the [main README](../README.md) or [open an issue](https://github.com/ravi-chandu/VIBE-Visual/issues).

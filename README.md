@@ -47,8 +47,8 @@ npm install -g powerbi-visuals-tools
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/vibevisual.git
-cd vibevisual
+git clone https://github.com/ravi-chandu/VIBE-Visual.git
+cd VIBE-Visual
 ```
 
 2. Install dependencies:
@@ -181,8 +181,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact & Support
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_GITHUB_USERNAME/vibevisual/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_GITHUB_USERNAME/vibevisual/discussions)
+- **Issues**: [GitHub Issues](https://github.com/ravi-chandu/VIBE-Visual/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/ravi-chandu/VIBE-Visual/discussions)
 - **Author**: Ravi Chandu
 
 ## 🗺️ Roadmap
@@ -198,7 +198,7 @@ Future enhancements being considered:
 - [ ] Accessibility improvements (ARIA labels, keyboard navigation)
 - [ ] Localization support for multiple languages
 
-Feel free to suggest features through [GitHub Issues](https://github.com/YOUR_GITHUB_USERNAME/vibevisual/issues)!
+Feel free to suggest features through [GitHub Issues](https://github.com/ravi-chandu/VIBE-Visual/issues)!
 
 ---
 

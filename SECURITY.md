@@ -19,7 +19,7 @@ If you discover a security vulnerability, please follow these steps:
 
 1. **Do NOT open a public GitHub issue** for security vulnerabilities
 2. **Use GitHub Security Advisories** (preferred method):
-   - Go to the [Security tab](https://github.com/YOUR_GITHUB_USERNAME/vibevisual/security)
+   - Go to the [Security tab](https://github.com/ravi-chandu/VIBE-Visual/security)
    - Click "Report a vulnerability"
    - Fill out the form with vulnerability details
 3. **Alternative**: Email the maintainer directly

@@ -70,8 +70,8 @@ We actively welcome your pull requests:
 1. **Clone your fork:**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/vibevisual.git
-cd vibevisual
+git clone https://github.com/YOUR_USERNAME/VIBE-Visual.git
+cd VIBE-Visual
 ```
 
 2. **Install dependencies:**
@@ -267,7 +267,7 @@ Use the sample data in `examples/sample-data.csv` or create your own test datase
 Don't hesitate to ask questions! You can:
 
 - Open an issue with the `question` label
-- Start a discussion in [GitHub Discussions](https://github.com/YOUR_GITHUB_USERNAME/vibevisual/discussions)
+- Start a discussion in [GitHub Discussions](https://github.com/ravi-chandu/VIBE-Visual/discussions)
 - Comment on existing issues or pull requests
 
 ## 🏆 Recognition

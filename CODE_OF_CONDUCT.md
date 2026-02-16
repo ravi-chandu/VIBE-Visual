@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement via GitHub issues
-at https://github.com/YOUR_GITHUB_USERNAME/vibevisual/issues.
+at https://github.com/ravi-chandu/VIBE-Visual/issues.
 
 All complaints will be reviewed and investigated promptly and fairly.
 

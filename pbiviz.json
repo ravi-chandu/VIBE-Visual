@@ -6,13 +6,13 @@
         "visualClassName": "Visual",
         "version": "1.0.0.0",
         "description": "Modern open-source Power BI custom visual built with AI vibe coding.",
-        "supportUrl": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual",
-        "gitHubUrl": "https://github.com/YOUR_GITHUB_USERNAME/vibevisual"
+        "supportUrl": "https://github.com/ravi-chandu/VIBE-Visual",
+        "gitHubUrl": "https://github.com/ravi-chandu/VIBE-Visual"
     },
     "apiVersion": "5.3.0",
     "author": {
         "name": "Ravi Chandu",
-        "email": "YOUR_GITHUB_USERNAME@users.noreply.github.com"
+        "email": "ravi-chandu@users.noreply.github.com"
     },
     "assets": {
         "icon": "assets/icon.png"
